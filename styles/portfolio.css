@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .open-sans-Normal {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -33,6 +37,10 @@
 
 .dark-3 {
     color: #474747;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
 }
 
 /*header*/
@@ -103,10 +111,50 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.bannar-description {
+.banner-description {
     font-size: 18px;
 }
 
 .banner-profile-picture {
     width: 580px;
+}
+
+/*main style*/
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/*About Section*/
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-title {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-description {
+    font-size: 18px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item {
+    letter-spacing: 0%;
+    text-align: center;
+}
+.item-title{
+    margin-bottom: 0%;
+}
+.item-description {
+    font-weight: bold;
+    margin-top: 0%;
 }
